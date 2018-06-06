@@ -5,7 +5,7 @@ def turn_count(board)
   board.each do |board|
     if board != " "
     counter += 1
-    puts "It's turn #{board}."
+     "It's turn #{}."
     end
   end
 end

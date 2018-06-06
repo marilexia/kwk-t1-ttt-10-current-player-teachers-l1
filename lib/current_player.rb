@@ -11,7 +11,7 @@ def turn_count(board)
 end
 
 def current_player (player_X)
-  if turn_count % 2 = 0
+  if player_X % 2 = 0
     return "X"
   else
     return "O"
